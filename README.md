@@ -22,14 +22,14 @@ ShareNote is a platform designed to help students share and discover study notes
 share-note_backend/
 ├── backend_server/          # Main project directory
 │   ├── backend_server/     # Project configuration
-│   │   ├── init.py
+│   │   ├── __init__.py
 │   │   ├── asgi.py        # ASGI configuration
 │   │   ├── settings.py    # Project settings
 │   │   ├── urls.py        # Main URL configuration
 │   │   └── wsgi.py        # WSGI configuration
 │   ├── notes_app/         # Main application
 │   │   ├── migrations/    # Database migrations
-│   │   ├── init.py
+│   │   ├── __init__.py
 │   │   ├── admin.py      # Admin interface configuration
 │   │   ├── apps.py       # App configuration
 │   │   ├── models.py     # Database models
