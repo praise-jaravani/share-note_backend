@@ -18,30 +18,6 @@ ShareNote is a platform designed to help students share and discover study notes
 - SQLite (Development)
 - CORS Headers
 
-## Project Structure
-share-note_backend/
-├── backend_server/          # Main project directory
-│   ├── backend_server/     # Project configuration
-│   │   ├── __init__.py
-│   │   ├── asgi.py        # ASGI configuration
-│   │   ├── settings.py    # Project settings
-│   │   ├── urls.py        # Main URL configuration
-│   │   └── wsgi.py        # WSGI configuration
-│   ├── notes_app/         # Main application
-│   │   ├── migrations/    # Database migrations
-│   │   ├── __init__.py
-│   │   ├── admin.py      # Admin interface configuration
-│   │   ├── apps.py       # App configuration
-│   │   ├── models.py     # Database models
-│   │   ├── serializers.py # API serializers
-│   │   ├── tests.py      # Unit tests
-│   │   ├── urls.py       # App URL patterns
-│   │   └── views.py      # API views
-│   ├── media/            # User-uploaded files
-│   ├── db.sqlite3        # Development database
-│   └── manage.py         # Django management script
-└── env/                  # Virtual environment (not tracked in git)
-
 ## Installation and Setup
 
 ### Prerequisites
